@@ -33,7 +33,7 @@ cudzys³owami lub zbiory znakow miêdzy bia³ymi znakami (odstêpami).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
