@@ -31,7 +31,7 @@ cudzys³owami lub zbiory znakow miêdzy bia³ymi znakami (odstêpami).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
