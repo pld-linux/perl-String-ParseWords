@@ -4,7 +4,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	ParseWords
-Summary:	String::ParseWords - Parse a string into logical words
+Summary:	String::ParseWords - parse a string into logical words
 Summary(pl):	String::ParseWords - analiza ³añcucha z rozk³adem na logiczne s³owa
 Name:		perl-String-ParseWords
 Version:	0.1
