@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	ParseWords
+%define		pdir	String
+%define		pnam	ParseWords
 Summary:	String::ParseWords - parse a string into logical words
 Summary(pl):	String::ParseWords - analiza ³añcucha z rozk³adem na logiczne s³owa
 Name:		perl-String-ParseWords
