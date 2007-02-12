@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	ParseWords
 Summary:	String::ParseWords - parse a string into logical words
-Summary(pl):	String::ParseWords - analiza ≥aÒcucha z rozk≥adem na logiczne s≥owa
+Summary(pl.UTF-8):   String::ParseWords - analiza ≈Ça≈Ñcucha z rozk≈Çadem na logiczne s≈Çowa
 Name:		perl-String-ParseWords
 Version:	0.1
 Release:	3
@@ -24,10 +24,10 @@ String::ParseWords is designed to parse logical words from a string.
 Logical words are defined as sets of characters between double quotes
 or sets of characters between whitespace.
 
-%description -l pl
-Modu≥ String::ParseWords s≥uøy do analizy logicznych s≥Ûw w ≥aÒcuchu.
-Logiczne s≥owa s± zdefiniowane jako zbiory znakÛw miÍdzy podwÛjnymi
-cudzys≥owami lub zbiory znakÛw miÍdzy bia≥ymi znakami (odstÍpami).
+%description -l pl.UTF-8
+Modu≈Ç String::ParseWords s≈Çu≈ºy do analizy logicznych s≈Ç√≥w w ≈Ça≈Ñcuchu.
+Logiczne s≈Çowa sƒÖ zdefiniowane jako zbiory znak√≥w miƒôdzy podw√≥jnymi
+cudzys≈Çowami lub zbiory znak√≥w miƒôdzy bia≈Çymi znakami (odstƒôpami).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
