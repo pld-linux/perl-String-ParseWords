@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	ParseWords
 Summary:	String::ParseWords - parse a string into logical words
-Summary(pl.UTF-8):   String::ParseWords - analiza łańcucha z rozkładem na logiczne słowa
+Summary(pl.UTF-8):	String::ParseWords - analiza łańcucha z rozkładem na logiczne słowa
 Name:		perl-String-ParseWords
 Version:	0.1
 Release:	3
